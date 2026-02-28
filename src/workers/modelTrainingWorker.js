@@ -113,7 +113,7 @@ function normalizeMovie(rawMovie, index) {
 
     return {
         id: toNumber(getMovieField(rawMovie, 'Unnamed: 0', 'id'), index) + 1,
-        name: getMovieField(rawMovie, 'Movie Name', 'nome_filme') || `Filme ${index + 1}`,
+        name: getMovieField(rawMovie, 'Movie Name', 'nome_filme') || `Movie ${index + 1}`,
         year: toNumber(getMovieField(rawMovie, 'Year of Release', 'ano_lancamento'), 0),
         runtime: toNumber(getMovieField(rawMovie, 'Run Time in minutes', 'duracao_minutos'), 0),
         rating: toNumber(getMovieField(rawMovie, 'Movie Rating', 'avaliacao'), 0),
@@ -123,7 +123,7 @@ function normalizeMovie(rawMovie, index) {
         genres,
         genreTokens,
         certification: getMovieField(rawMovie, 'Certification', 'classificacao_indicativa') || 'N/A',
-        description: description || 'Sem descrição disponível.',
+        description: description || '',
     };
 }
 
@@ -443,7 +443,7 @@ async function trainModel({ users, movieDataPath = '/data/movie.json' }) {
         type: workerEvents.progressUpdate,
         progress: {
             progress: 1,
-            status: 'Carregando base de filmes...',
+            statusKey: 'training.status.loadingMovieBase',
         }
     });
 
@@ -486,7 +486,12 @@ async function trainModel({ users, movieDataPath = '/data/movie.json' }) {
                     type: workerEvents.progressUpdate,
                     progress: {
                         progress,
-                        status: `Treinando época ${epoch + 1}/${TRAINING.epochs} (loss ${logs.loss.toFixed(4)})`,
+                        statusKey: 'training.status.epoch',
+                        statusParams: {
+                            epoch: epoch + 1,
+                            total: TRAINING.epochs,
+                            loss: logs.loss.toFixed(4),
+                        },
                     }
                 });
             }
@@ -500,7 +505,7 @@ async function trainModel({ users, movieDataPath = '/data/movie.json' }) {
         type: workerEvents.progressUpdate,
         progress: {
             progress: 100,
-            status: 'Treinamento concluído',
+            statusKey: 'training.status.completed',
         }
     });
     postMessage({ type: workerEvents.trainingComplete });

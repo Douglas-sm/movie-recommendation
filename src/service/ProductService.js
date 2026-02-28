@@ -44,7 +44,7 @@ export class ProductService {
 
         return {
             id: this.#toNumber(this.#readMovieField(movie, 'Unnamed: 0', 'id'), index) + 1,
-            name: this.#readMovieField(movie, 'Movie Name', 'nome_filme') || `Filme ${index + 1}`,
+            name: this.#readMovieField(movie, 'Movie Name', 'nome_filme') || `Movie ${index + 1}`,
             genres,
             year: this.#toNumber(this.#readMovieField(movie, 'Year of Release', 'ano_lancamento'), 0),
             runtime: this.#toNumber(this.#readMovieField(movie, 'Run Time in minutes', 'duracao_minutos'), 0),
@@ -55,7 +55,7 @@ export class ProductService {
             certification: this.#readMovieField(movie, 'Certification', 'classificacao_indicativa') || 'N/A',
             directors,
             stars,
-            description: description || 'Sem descrição disponível.',
+            description: description || '',
             category: genres[0] || 'N/A',
         };
     }

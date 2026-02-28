@@ -54,7 +54,7 @@ export class ModelController {
 
         this.#modelView.updateTrainingProgress({
             progress: 0,
-            status: 'Preparando dados para treinamento...'
+            statusKey: 'training.status.preparingData',
         });
 
         this.#events.dispatchTrainModel({

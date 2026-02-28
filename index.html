@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recomendador de Filmes</title>
+    <title>Movie Recommender</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
@@ -14,48 +14,51 @@
     <main class="main container-xxl">
         <header class="page-header">
             <div class="page-header-top">
-                <h1 class="mb-0">Recomendador de Filmes</h1>
+                <h1 class="mb-0" data-i18n="header.title">Movie Recommender</h1>
                 <div class="translation-switch">
-                    <span id="datasetSourceLabel" class="badge rounded-pill text-bg-light border">Dados: EN</span>
+                    <span id="datasetSourceLabel" class="badge rounded-pill text-bg-light border">Data: EN</span>
+                    <button id="translationToggleBtn" type="button" class="btn btn-outline-secondary btn-sm">
+                        Trocar para pt-br
+                    </button>
                 </div>
             </div>
-            <p class="text-muted mb-0">Escolha um usuário e receba 5 recomendações personalizadas.</p>
+            <p class="text-muted mb-0" data-i18n="header.subtitle">Choose a user and get 5 personalized recommendations.</p>
         </header>
 
         <section class="row g-4">
             <div class="col-lg-4">
                 <div class="card h-100">
                     <div class="card-header">
-                        <h4 class="mb-0">Perfil do Usuário</h4>
+                        <h4 class="mb-0" data-i18n="profile.title">User Profile</h4>
                     </div>
                     <div class="card-body">
                         <form id="userForm">
                             <div class="mb-3">
-                                <label for="userSelect" class="form-label">Usuário</label>
+                                <label for="userSelect" class="form-label" data-i18n="form.user">User</label>
                                 <select class="form-select" id="userSelect">
-                                    <option value="">-- Selecione --</option>
+                                    <option value="" data-i18n="form.selectPlaceholder">-- Select --</option>
                                 </select>
                             </div>
                             <div class="row">
                                 <div class="col-6 mb-3">
-                                    <label for="userAge" class="form-label">Idade</label>
+                                    <label for="userAge" class="form-label" data-i18n="form.age">Age</label>
                                     <input type="text" class="form-control" id="userAge" disabled>
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <label for="userGender" class="form-label">Gênero</label>
+                                    <label for="userGender" class="form-label" data-i18n="form.gender">Gender</label>
                                     <input type="text" class="form-control" id="userGender" disabled>
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Gêneros favoritos</label>
+                                <label class="form-label" data-i18n="form.favoriteGenres">Favorite genres</label>
                                 <div id="favoriteGenresList" class="tag-list"></div>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Hobbies</label>
+                                <label class="form-label" data-i18n="form.hobbies">Hobbies</label>
                                 <div id="hobbiesList" class="tag-list"></div>
                             </div>
                             <div>
-                                <label class="form-label">Descrição</label>
+                                <label class="form-label" data-i18n="form.description">Description</label>
                                 <p id="userDescription" class="user-description"></p>
                             </div>
                         </form>
@@ -66,26 +69,26 @@
             <div class="col-lg-8">
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h4 class="mb-0">Treinamento do Modelo</h4>
+                        <h4 class="mb-0" data-i18n="training.title">Model Training</h4>
                     </div>
                     <div class="card-body">
                         <button id="trainModelBtn" class="btn btn-primary">
-                            <i class="bi bi-cpu"></i> Treinar Modelo
+                            <i class="bi bi-cpu"></i> <span data-i18n="training.button.idle">Train Model</span>
                         </button>
                         <div class="progress mt-3" role="progressbar" aria-label="Training progress">
                             <div id="trainingProgressBar" class="progress-bar" style="width: 0%;">0%</div>
                         </div>
-                        <p id="trainingStatusText" class="training-status-text">Aguardando treinamento inicial...</p>
+                        <p id="trainingStatusText" class="training-status-text" data-i18n="training.status.waitingInitial">Waiting for initial training...</p>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h3 class="mb-0">Top 5 Recomendações</h3>
+                    <h3 class="mb-0" data-i18n="recommendations.title">Top 5 Recommendations</h3>
                     <small class="text-muted" id="recommendationForUser"></small>
                 </div>
                 <div class="row" id="movieList">
                     <div class="col-12">
-                        <div class="empty-state">Treine o modelo e selecione um usuário para ver recomendações.</div>
+                        <div class="empty-state" data-i18n="recommendations.emptyBeforeTrain">Train the model and select a user to see recommendations.</div>
                     </div>
                 </div>
             </div>

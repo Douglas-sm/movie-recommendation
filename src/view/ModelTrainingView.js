@@ -1,14 +1,22 @@
 import { View } from './View.js';
+import { I18n } from '../i18n/i18n.js';
 
 export class ModelView extends View {
     #trainModelBtn = document.querySelector('#trainModelBtn');
     #trainingProgressBar = document.querySelector('#trainingProgressBar');
     #trainingStatusText = document.querySelector('#trainingStatusText');
     #onTrainModel;
+    #lastProgressData = {
+        progress: 0,
+        statusKey: 'training.status.waitingInitial',
+    };
 
     constructor() {
         super();
         this.attachEventListeners();
+        I18n.onChange(() => {
+            this.updateTrainingProgress(this.#lastProgressData);
+        });
     }
 
     registerTrainModelCallback(callback) {
@@ -24,8 +32,10 @@ export class ModelView extends View {
     }
 
     updateTrainingProgress(progressData = {}) {
+        this.#lastProgressData = { ...progressData };
+
         const progress = Math.max(0, Math.min(100, Number(progressData.progress ?? 0)));
-        const status = progressData.status || this.#statusMessage(progress);
+        const status = this.#resolveStatus(progressData, progress);
 
         this.#trainingProgressBar.style.width = `${progress}%`;
         this.#trainingProgressBar.textContent = `${progress}%`;
@@ -34,24 +44,36 @@ export class ModelView extends View {
         if (progress < 100) {
             this.#trainModelBtn.disabled = true;
             this.#trainModelBtn.innerHTML =
-                '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Treinando...';
+                `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> ${I18n.t('training.button.running')}`;
             return;
         }
 
         this.#trainModelBtn.disabled = false;
-        this.#trainModelBtn.innerHTML = '<i class="bi bi-cpu"></i> Treinar Modelo';
+        this.#trainModelBtn.innerHTML = `<i class="bi bi-cpu"></i> ${I18n.t('training.button.idle')}`;
     }
 
     setTrainingCompleted() {
         this.updateTrainingProgress({
             progress: 100,
-            status: 'Treinamento finalizado. Troque o usuário para atualizar as recomendações.',
+            statusKey: 'training.status.completedSwitchUser',
         });
     }
 
     #statusMessage(progress) {
-        if (progress === 0) return 'Iniciando treinamento...';
-        if (progress < 100) return 'Treinamento em andamento...';
-        return 'Treinamento concluído.';
+        if (progress === 0) return I18n.t('training.status.starting');
+        if (progress < 100) return I18n.t('training.status.inProgress');
+        return I18n.t('training.status.completed');
+    }
+
+    #resolveStatus(progressData, progress) {
+        if (progressData.statusKey) {
+            return I18n.t(progressData.statusKey, progressData.statusParams);
+        }
+
+        if (progressData.status) {
+            return progressData.status;
+        }
+
+        return this.#statusMessage(progress);
     }
 }

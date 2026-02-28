@@ -33,12 +33,15 @@ export class ProductController {
                 score: movie.rating / 10
             }));
 
-        this.#productView.render(baseline, 'Ranking base (antes da personalização)');
+        this.#productView.render(baseline, { type: 'baseline' });
     }
 
     setupEventListeners() {
         this.#events.onRecommendationsReady(({ user, recommendations }) => {
-            this.#productView.render(recommendations.slice(0, 5), user.name);
+            this.#productView.render(recommendations.slice(0, 5), {
+                type: 'user',
+                userName: user?.name || '',
+            });
         });
     }
 }
