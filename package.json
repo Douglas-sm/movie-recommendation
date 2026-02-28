@@ -1,0 +1,22 @@
+{
+    "name": "movie-recommendations-with-ml",
+    "version": "1.0.0",
+    "description": "A movie recommendation system with TensorFlow.js",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "npx --yes browser-sync -w . --server --files \"index.html,style.css,data/*.json,src/**/*.js,src/view/templates/*.html\" --port 3000",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "movies",
+        "tensorflow",
+        "recommendation",
+        "javascript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^3.0.4"
+    }
+}

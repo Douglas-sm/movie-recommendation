@@ -1,0 +1,1796 @@
+[
+  {
+    "id": 1,
+    "name": "Isabela",
+    "gender": "mulher",
+    "age": 49,
+    "favorite_genres": [
+      "Esporte",
+      "Romance",
+      "Suspense"
+    ],
+    "hobbies": [
+      "viajar",
+      "cinema"
+    ],
+    "description": "Gosta de conteúdos inspiradores e motivacionais."
+  },
+  {
+    "id": 2,
+    "name": "Mateus",
+    "gender": "homem",
+    "age": 14,
+    "favorite_genres": [
+      "Terror",
+      "Ficção Científica"
+    ],
+    "hobbies": [
+      "arte",
+      "jogar videogame",
+      "corrida"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 3,
+    "name": "Victor",
+    "gender": "homem",
+    "age": 65,
+    "favorite_genres": [
+      "Animação",
+      "Esporte",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "cinema",
+      "tecnologia",
+      "caminhadas",
+      "viajar"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 4,
+    "name": "Renata",
+    "gender": "mulher",
+    "age": 56,
+    "favorite_genres": [
+      "Musical",
+      "Esporte"
+    ],
+    "hobbies": [
+      "fotografia",
+      "yoga",
+      "board games",
+      "caminhadas",
+      "dançar"
+    ],
+    "description": "Gosta de conteúdos inspiradores e motivacionais."
+  },
+  {
+    "id": 5,
+    "name": "Victor",
+    "gender": "homem",
+    "age": 22,
+    "favorite_genres": [
+      "Biografia",
+      "Drama"
+    ],
+    "hobbies": [
+      "programação",
+      "corrida"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 6,
+    "name": "Fernanda",
+    "gender": "mulher",
+    "age": 54,
+    "favorite_genres": [
+      "Ficção Científica",
+      "Ação",
+      "Crime",
+      "Musical"
+    ],
+    "hobbies": [
+      "fotografia",
+      "ler livros",
+      "caminhadas",
+      "música",
+      "corrida"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 7,
+    "name": "Gabriela",
+    "gender": "mulher",
+    "age": 54,
+    "favorite_genres": [
+      "Documentário",
+      "Romance",
+      "Biografia"
+    ],
+    "hobbies": [
+      "programação",
+      "academia",
+      "assistir séries"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 8,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 15,
+    "favorite_genres": [
+      "Fantasia",
+      "Terror",
+      "Aventura",
+      "Ação"
+    ],
+    "hobbies": [
+      "dançar",
+      "cozinhar",
+      "arte",
+      "yoga",
+      "tecnologia"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 9,
+    "name": "Isabela",
+    "gender": "mulher",
+    "age": 52,
+    "favorite_genres": [
+      "Romance",
+      "Esporte",
+      "Documentário",
+      "Comédia",
+      "Musical"
+    ],
+    "hobbies": [
+      "corrida",
+      "ler livros",
+      "cinema"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 10,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 59,
+    "favorite_genres": [
+      "Crime",
+      "Animação",
+      "Terror",
+      "Comédia",
+      "Esporte"
+    ],
+    "hobbies": [
+      "dançar",
+      "ler livros",
+      "caminhadas",
+      "academia",
+      "música"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 11,
+    "name": "Isabela",
+    "gender": "mulher",
+    "age": 70,
+    "favorite_genres": [
+      "Suspense",
+      "Ação",
+      "Terror",
+      "Musical"
+    ],
+    "hobbies": [
+      "ler livros",
+      "dançar",
+      "assistir séries",
+      "viajar",
+      "culinária internacional"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 12,
+    "name": "Sofia",
+    "gender": "mulher",
+    "age": 29,
+    "favorite_genres": [
+      "Terror",
+      "Romance"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "ler livros",
+      "caminhadas",
+      "board games",
+      "podcasts"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 13,
+    "name": "Rafael",
+    "gender": "homem",
+    "age": 19,
+    "favorite_genres": [
+      "Suspense",
+      "Crime"
+    ],
+    "hobbies": [
+      "esportes",
+      "viajar"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 14,
+    "name": "Carlos",
+    "gender": "homem",
+    "age": 28,
+    "favorite_genres": [
+      "Documentário",
+      "Ação",
+      "Romance",
+      "Ficção Científica",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "academia",
+      "assistir séries"
+    ],
+    "description": "Gosta de conteúdos inspiradores e motivacionais."
+  },
+  {
+    "id": 15,
+    "name": "Rafael",
+    "gender": "homem",
+    "age": 62,
+    "favorite_genres": [
+      "Fantasia",
+      "Suspense",
+      "Crime"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "yoga"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 16,
+    "name": "Helena",
+    "gender": "mulher",
+    "age": 44,
+    "favorite_genres": [
+      "Romance",
+      "Musical"
+    ],
+    "hobbies": [
+      "cozinhar",
+      "cinema",
+      "ler livros",
+      "música"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 17,
+    "name": "Daniela",
+    "gender": "mulher",
+    "age": 36,
+    "favorite_genres": [
+      "Terror",
+      "Musical",
+      "Aventura",
+      "Comédia",
+      "Crime"
+    ],
+    "hobbies": [
+      "culinária internacional",
+      "academia"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 18,
+    "name": "Sofia",
+    "gender": "mulher",
+    "age": 22,
+    "favorite_genres": [
+      "Crime",
+      "Esporte"
+    ],
+    "hobbies": [
+      "fotografia",
+      "viajar",
+      "tecnologia",
+      "assistir séries",
+      "corrida"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 19,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 36,
+    "favorite_genres": [
+      "Terror",
+      "Suspense",
+      "Ficção Científica",
+      "Animação"
+    ],
+    "hobbies": [
+      "esportes",
+      "jogar videogame",
+      "cinema"
+    ],
+    "description": "Interessa-se por histórias baseadas em fatos reais."
+  },
+  {
+    "id": 20,
+    "name": "Victor",
+    "gender": "homem",
+    "age": 43,
+    "favorite_genres": [
+      "Terror",
+      "Comédia",
+      "Animação",
+      "Esporte"
+    ],
+    "hobbies": [
+      "academia",
+      "cinema",
+      "programação",
+      "culinária internacional",
+      "esportes"
+    ],
+    "description": "Gosta de conteúdos inspiradores e motivacionais."
+  },
+  {
+    "id": 21,
+    "name": "Juliana",
+    "gender": "mulher",
+    "age": 36,
+    "favorite_genres": [
+      "Esporte",
+      "Musical"
+    ],
+    "hobbies": [
+      "caminhadas",
+      "yoga",
+      "dançar",
+      "cozinhar"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 22,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 65,
+    "favorite_genres": [
+      "Comédia",
+      "Terror",
+      "Suspense",
+      "Drama"
+    ],
+    "hobbies": [
+      "jogar videogame",
+      "fotografia",
+      "podcasts",
+      "cinema",
+      "música"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 23,
+    "name": "Fernanda",
+    "gender": "mulher",
+    "age": 29,
+    "favorite_genres": [
+      "Drama",
+      "Musical"
+    ],
+    "hobbies": [
+      "podcasts",
+      "viajar",
+      "arte",
+      "culinária internacional",
+      "jogar videogame"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 24,
+    "name": "Isabela",
+    "gender": "mulher",
+    "age": 38,
+    "favorite_genres": [
+      "Suspense",
+      "Aventura",
+      "Histórico",
+      "Comédia"
+    ],
+    "hobbies": [
+      "dançar",
+      "assistir séries",
+      "caminhadas",
+      "arte",
+      "jogar videogame"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 25,
+    "name": "Isabela",
+    "gender": "mulher",
+    "age": 59,
+    "favorite_genres": [
+      "Musical",
+      "Histórico",
+      "Comédia",
+      "Biografia"
+    ],
+    "hobbies": [
+      "ler livros",
+      "yoga",
+      "programação"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 26,
+    "name": "André",
+    "gender": "homem",
+    "age": 62,
+    "favorite_genres": [
+      "Esporte",
+      "Comédia"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "viajar",
+      "música"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 27,
+    "name": "Ana",
+    "gender": "mulher",
+    "age": 20,
+    "favorite_genres": [
+      "Histórico",
+      "Drama",
+      "Esporte"
+    ],
+    "hobbies": [
+      "yoga",
+      "caminhadas"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 28,
+    "name": "Juliana",
+    "gender": "mulher",
+    "age": 35,
+    "favorite_genres": [
+      "Fantasia",
+      "Animação",
+      "Suspense",
+      "Aventura"
+    ],
+    "hobbies": [
+      "arte",
+      "cinema",
+      "yoga",
+      "música",
+      "podcasts"
+    ],
+    "description": "Interessa-se por histórias baseadas em fatos reais."
+  },
+  {
+    "id": 29,
+    "name": "Bruno",
+    "gender": "homem",
+    "age": 47,
+    "favorite_genres": [
+      "Histórico",
+      "Documentário"
+    ],
+    "hobbies": [
+      "ler livros",
+      "fotografia",
+      "música",
+      "arte"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 30,
+    "name": "Mateus",
+    "gender": "homem",
+    "age": 26,
+    "favorite_genres": [
+      "Histórico",
+      "Ficção Científica",
+      "Romance"
+    ],
+    "hobbies": [
+      "cozinhar",
+      "ler livros",
+      "tecnologia",
+      "programação"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 31,
+    "name": "Lucas",
+    "gender": "homem",
+    "age": 47,
+    "favorite_genres": [
+      "Esporte",
+      "Documentário",
+      "Terror",
+      "Drama",
+      "Crime"
+    ],
+    "hobbies": [
+      "caminhadas",
+      "jogar videogame",
+      "cozinhar",
+      "ler livros"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 32,
+    "name": "João",
+    "gender": "homem",
+    "age": 22,
+    "favorite_genres": [
+      "Biografia",
+      "Suspense",
+      "Terror",
+      "Histórico"
+    ],
+    "hobbies": [
+      "yoga",
+      "cinema"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 33,
+    "name": "Renata",
+    "gender": "mulher",
+    "age": 27,
+    "favorite_genres": [
+      "Esporte",
+      "Histórico",
+      "Ficção Científica",
+      "Crime"
+    ],
+    "hobbies": [
+      "academia",
+      "podcasts",
+      "arte"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 34,
+    "name": "Marina",
+    "gender": "mulher",
+    "age": 30,
+    "favorite_genres": [
+      "Terror",
+      "Ficção Científica",
+      "Histórico",
+      "Comédia"
+    ],
+    "hobbies": [
+      "caminhadas",
+      "tecnologia",
+      "esportes"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 35,
+    "name": "Bruno",
+    "gender": "homem",
+    "age": 59,
+    "favorite_genres": [
+      "Documentário",
+      "Terror",
+      "Aventura",
+      "Musical",
+      "Animação"
+    ],
+    "hobbies": [
+      "academia",
+      "esportes"
+    ],
+    "description": "Gosta de conteúdos inspiradores e motivacionais."
+  },
+  {
+    "id": 36,
+    "name": "Mateus",
+    "gender": "homem",
+    "age": 34,
+    "favorite_genres": [
+      "Histórico",
+      "Romance",
+      "Ação",
+      "Ficção Científica",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "cinema",
+      "board games",
+      "programação",
+      "jogar videogame"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 37,
+    "name": "Larissa",
+    "gender": "mulher",
+    "age": 28,
+    "favorite_genres": [
+      "Animação",
+      "Ficção Científica"
+    ],
+    "hobbies": [
+      "dançar",
+      "yoga"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 38,
+    "name": "Felipe",
+    "gender": "homem",
+    "age": 41,
+    "favorite_genres": [
+      "Esporte",
+      "Animação"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "viajar",
+      "esportes",
+      "board games",
+      "dançar"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 39,
+    "name": "Marina",
+    "gender": "mulher",
+    "age": 48,
+    "favorite_genres": [
+      "Crime",
+      "Musical",
+      "Biografia"
+    ],
+    "hobbies": [
+      "ler livros",
+      "música",
+      "caminhadas",
+      "podcasts"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 40,
+    "name": "Eduardo",
+    "gender": "homem",
+    "age": 44,
+    "favorite_genres": [
+      "Crime",
+      "Documentário"
+    ],
+    "hobbies": [
+      "viajar",
+      "fotografia",
+      "corrida",
+      "esportes",
+      "ler livros"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 41,
+    "name": "Henrique",
+    "gender": "homem",
+    "age": 38,
+    "favorite_genres": [
+      "Suspense",
+      "Aventura",
+      "Drama",
+      "Biografia",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "esportes",
+      "fotografia",
+      "caminhadas",
+      "música"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 42,
+    "name": "Gabriela",
+    "gender": "mulher",
+    "age": 63,
+    "favorite_genres": [
+      "Aventura",
+      "Musical",
+      "Animação",
+      "Biografia",
+      "Suspense"
+    ],
+    "hobbies": [
+      "ler livros",
+      "podcasts"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 43,
+    "name": "Renata",
+    "gender": "mulher",
+    "age": 16,
+    "favorite_genres": [
+      "Terror",
+      "Biografia",
+      "Suspense"
+    ],
+    "hobbies": [
+      "fotografia",
+      "corrida",
+      "cozinhar",
+      "esportes",
+      "dançar"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 44,
+    "name": "Daniela",
+    "gender": "mulher",
+    "age": 25,
+    "favorite_genres": [
+      "Fantasia",
+      "Suspense",
+      "Animação",
+      "Romance"
+    ],
+    "hobbies": [
+      "ler livros",
+      "corrida"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 45,
+    "name": "Larissa",
+    "gender": "mulher",
+    "age": 28,
+    "favorite_genres": [
+      "Ação",
+      "Fantasia",
+      "Romance",
+      "Musical"
+    ],
+    "hobbies": [
+      "dançar",
+      "caminhadas",
+      "board games",
+      "cozinhar",
+      "corrida"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 46,
+    "name": "Daniela",
+    "gender": "mulher",
+    "age": 64,
+    "favorite_genres": [
+      "Aventura",
+      "Suspense",
+      "Crime"
+    ],
+    "hobbies": [
+      "música",
+      "cozinhar",
+      "programação",
+      "assistir séries",
+      "caminhadas"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 47,
+    "name": "Lucas",
+    "gender": "homem",
+    "age": 53,
+    "favorite_genres": [
+      "Fantasia",
+      "Documentário",
+      "Crime",
+      "Esporte"
+    ],
+    "hobbies": [
+      "culinária internacional",
+      "fotografia",
+      "programação"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 48,
+    "name": "Larissa",
+    "gender": "mulher",
+    "age": 58,
+    "favorite_genres": [
+      "Animação",
+      "Musical",
+      "Crime",
+      "Ficção Científica",
+      "Aventura"
+    ],
+    "hobbies": [
+      "podcasts",
+      "caminhadas",
+      "jogar videogame"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 49,
+    "name": "Gabriela",
+    "gender": "mulher",
+    "age": 49,
+    "favorite_genres": [
+      "Drama",
+      "Terror",
+      "Ficção Científica",
+      "Esporte"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "fotografia",
+      "culinária internacional",
+      "podcasts"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 50,
+    "name": "Rafael",
+    "gender": "homem",
+    "age": 46,
+    "favorite_genres": [
+      "Documentário",
+      "Drama",
+      "Terror"
+    ],
+    "hobbies": [
+      "podcasts",
+      "ler livros",
+      "jogar videogame",
+      "fotografia"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 51,
+    "name": "Mateus",
+    "gender": "homem",
+    "age": 15,
+    "favorite_genres": [
+      "Aventura",
+      "Biografia",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "corrida",
+      "podcasts",
+      "tecnologia"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 52,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 14,
+    "favorite_genres": [
+      "Comédia",
+      "Fantasia",
+      "Musical",
+      "Histórico"
+    ],
+    "hobbies": [
+      "ler livros",
+      "jogar videogame",
+      "cinema",
+      "tecnologia"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 53,
+    "name": "Renata",
+    "gender": "mulher",
+    "age": 50,
+    "favorite_genres": [
+      "Suspense",
+      "Ficção Científica",
+      "Fantasia",
+      "Musical"
+    ],
+    "hobbies": [
+      "programação",
+      "corrida",
+      "culinária internacional",
+      "arte"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 54,
+    "name": "Beatriz",
+    "gender": "mulher",
+    "age": 57,
+    "favorite_genres": [
+      "Crime",
+      "Biografia"
+    ],
+    "hobbies": [
+      "jogar videogame",
+      "arte",
+      "cinema",
+      "assistir séries",
+      "caminhadas"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 55,
+    "name": "Victor",
+    "gender": "homem",
+    "age": 68,
+    "favorite_genres": [
+      "Ação",
+      "Biografia",
+      "Fantasia",
+      "Aventura",
+      "Comédia"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "assistir séries"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 56,
+    "name": "Pedro",
+    "gender": "homem",
+    "age": 67,
+    "favorite_genres": [
+      "Esporte",
+      "Biografia"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "academia",
+      "corrida"
+    ],
+    "description": "Interessa-se por histórias baseadas em fatos reais."
+  },
+  {
+    "id": 57,
+    "name": "Marina",
+    "gender": "mulher",
+    "age": 33,
+    "favorite_genres": [
+      "Comédia",
+      "Ficção Científica",
+      "Animação",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "podcasts",
+      "yoga",
+      "corrida"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 58,
+    "name": "Natália",
+    "gender": "mulher",
+    "age": 33,
+    "favorite_genres": [
+      "Musical",
+      "Ficção Científica"
+    ],
+    "hobbies": [
+      "dançar",
+      "culinária internacional",
+      "arte"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 59,
+    "name": "João",
+    "gender": "homem",
+    "age": 63,
+    "favorite_genres": [
+      "Histórico",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "corrida",
+      "arte",
+      "fotografia",
+      "podcasts",
+      "assistir séries"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 60,
+    "name": "Carla",
+    "gender": "mulher",
+    "age": 26,
+    "favorite_genres": [
+      "Romance",
+      "Crime"
+    ],
+    "hobbies": [
+      "jogar videogame",
+      "assistir séries",
+      "arte",
+      "programação",
+      "academia"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 61,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 44,
+    "favorite_genres": [
+      "Ação",
+      "Biografia",
+      "Drama"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "viajar"
+    ],
+    "description": "Interessa-se por histórias baseadas em fatos reais."
+  },
+  {
+    "id": 62,
+    "name": "Patrícia",
+    "gender": "mulher",
+    "age": 15,
+    "favorite_genres": [
+      "Esporte",
+      "Ficção Científica",
+      "Comédia",
+      "Documentário",
+      "Drama"
+    ],
+    "hobbies": [
+      "esportes",
+      "tecnologia",
+      "caminhadas"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 63,
+    "name": "Gabriela",
+    "gender": "mulher",
+    "age": 13,
+    "favorite_genres": [
+      "Crime",
+      "Terror"
+    ],
+    "hobbies": [
+      "cinema",
+      "arte",
+      "tecnologia",
+      "corrida",
+      "yoga"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 64,
+    "name": "Henrique",
+    "gender": "homem",
+    "age": 58,
+    "favorite_genres": [
+      "Romance",
+      "Biografia",
+      "Ação"
+    ],
+    "hobbies": [
+      "programação",
+      "culinária internacional",
+      "cozinhar",
+      "podcasts",
+      "dançar"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 65,
+    "name": "Rafael",
+    "gender": "homem",
+    "age": 67,
+    "favorite_genres": [
+      "Aventura",
+      "Terror",
+      "Crime"
+    ],
+    "hobbies": [
+      "podcasts",
+      "board games",
+      "caminhadas"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 66,
+    "name": "André",
+    "gender": "homem",
+    "age": 28,
+    "favorite_genres": [
+      "Esporte",
+      "Ficção Científica",
+      "Drama",
+      "Terror"
+    ],
+    "hobbies": [
+      "fotografia",
+      "música",
+      "tecnologia",
+      "cinema",
+      "viajar"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 67,
+    "name": "Victor",
+    "gender": "homem",
+    "age": 61,
+    "favorite_genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "jogar videogame",
+      "programação"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 68,
+    "name": "Helena",
+    "gender": "mulher",
+    "age": 34,
+    "favorite_genres": [
+      "Suspense",
+      "Ficção Científica",
+      "Comédia"
+    ],
+    "hobbies": [
+      "caminhadas",
+      "corrida",
+      "viajar",
+      "esportes",
+      "dançar"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 69,
+    "name": "Mateus",
+    "gender": "homem",
+    "age": 68,
+    "favorite_genres": [
+      "Ficção Científica",
+      "Documentário"
+    ],
+    "hobbies": [
+      "academia",
+      "yoga",
+      "corrida",
+      "tecnologia"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 70,
+    "name": "João",
+    "gender": "homem",
+    "age": 36,
+    "favorite_genres": [
+      "Histórico",
+      "Comédia",
+      "Ficção Científica",
+      "Romance"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "jogar videogame"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 71,
+    "name": "Rafael",
+    "gender": "homem",
+    "age": 44,
+    "favorite_genres": [
+      "Ação",
+      "Ficção Científica",
+      "Animação"
+    ],
+    "hobbies": [
+      "jogar videogame",
+      "corrida",
+      "arte"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 72,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 53,
+    "favorite_genres": [
+      "Romance",
+      "Ação",
+      "Crime"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "música",
+      "corrida",
+      "esportes",
+      "academia"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 73,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 22,
+    "favorite_genres": [
+      "Ação",
+      "Fantasia",
+      "Aventura",
+      "Biografia"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "cozinhar",
+      "ler livros"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 74,
+    "name": "Leonardo",
+    "gender": "homem",
+    "age": 21,
+    "favorite_genres": [
+      "Terror",
+      "Crime",
+      "Ação"
+    ],
+    "hobbies": [
+      "academia",
+      "programação",
+      "viajar",
+      "corrida",
+      "dançar"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 75,
+    "name": "Bruno",
+    "gender": "homem",
+    "age": 54,
+    "favorite_genres": [
+      "Musical",
+      "Drama"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "culinária internacional"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 76,
+    "name": "Fernanda",
+    "gender": "mulher",
+    "age": 50,
+    "favorite_genres": [
+      "Comédia",
+      "Musical",
+      "Aventura",
+      "Ação"
+    ],
+    "hobbies": [
+      "cozinhar",
+      "jogar videogame"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 77,
+    "name": "Isabela",
+    "gender": "mulher",
+    "age": 65,
+    "favorite_genres": [
+      "Documentário",
+      "Crime",
+      "Aventura",
+      "Suspense"
+    ],
+    "hobbies": [
+      "ler livros",
+      "yoga",
+      "podcasts"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 78,
+    "name": "Carla",
+    "gender": "mulher",
+    "age": 67,
+    "favorite_genres": [
+      "Animação",
+      "Terror"
+    ],
+    "hobbies": [
+      "cinema",
+      "cozinhar",
+      "culinária internacional",
+      "arte"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 79,
+    "name": "Natália",
+    "gender": "mulher",
+    "age": 65,
+    "favorite_genres": [
+      "Histórico",
+      "Musical",
+      "Terror",
+      "Ação"
+    ],
+    "hobbies": [
+      "música",
+      "ler livros",
+      "academia",
+      "caminhadas",
+      "esportes"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 80,
+    "name": "Gabriela",
+    "gender": "mulher",
+    "age": 49,
+    "favorite_genres": [
+      "Ação",
+      "Esporte",
+      "Histórico",
+      "Musical"
+    ],
+    "hobbies": [
+      "programação",
+      "academia",
+      "viajar"
+    ],
+    "description": "Pessoa curiosa que gosta de explorar novas histórias e experiências culturais."
+  },
+  {
+    "id": 81,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 15,
+    "favorite_genres": [
+      "Fantasia",
+      "Aventura"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "esportes",
+      "ler livros"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 82,
+    "name": "Henrique",
+    "gender": "homem",
+    "age": 17,
+    "favorite_genres": [
+      "Biografia",
+      "Drama",
+      "Ficção Científica",
+      "Suspense"
+    ],
+    "hobbies": [
+      "esportes",
+      "arte",
+      "viajar",
+      "cinema",
+      "caminhadas"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 83,
+    "name": "Victor",
+    "gender": "homem",
+    "age": 21,
+    "favorite_genres": [
+      "Ação",
+      "Documentário"
+    ],
+    "hobbies": [
+      "ler livros",
+      "cinema",
+      "música",
+      "assistir séries",
+      "cozinhar"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 84,
+    "name": "Bruno",
+    "gender": "homem",
+    "age": 30,
+    "favorite_genres": [
+      "Documentário",
+      "Drama"
+    ],
+    "hobbies": [
+      "jogar videogame",
+      "programação",
+      "viajar",
+      "fotografia",
+      "arte"
+    ],
+    "description": "Interessa-se por histórias baseadas em fatos reais."
+  },
+  {
+    "id": 85,
+    "name": "Sofia",
+    "gender": "mulher",
+    "age": 26,
+    "favorite_genres": [
+      "Aventura",
+      "Histórico",
+      "Animação",
+      "Comédia"
+    ],
+    "hobbies": [
+      "dançar",
+      "podcasts",
+      "academia"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 86,
+    "name": "Rafael",
+    "gender": "homem",
+    "age": 54,
+    "favorite_genres": [
+      "Comédia",
+      "Esporte",
+      "Fantasia",
+      "Ficção Científica",
+      "Documentário"
+    ],
+    "hobbies": [
+      "ler livros",
+      "cozinhar",
+      "arte",
+      "tecnologia",
+      "board games"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 87,
+    "name": "Carlos",
+    "gender": "homem",
+    "age": 66,
+    "favorite_genres": [
+      "Biografia",
+      "Comédia",
+      "Drama"
+    ],
+    "hobbies": [
+      "corrida",
+      "dançar"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 88,
+    "name": "João",
+    "gender": "homem",
+    "age": 65,
+    "favorite_genres": [
+      "Musical",
+      "Suspense",
+      "Comédia",
+      "Esporte"
+    ],
+    "hobbies": [
+      "música",
+      "podcasts",
+      "programação",
+      "arte"
+    ],
+    "description": "Valoriza roteiros inteligentes e reviravoltas inesperadas."
+  },
+  {
+    "id": 89,
+    "name": "Lucas",
+    "gender": "homem",
+    "age": 35,
+    "favorite_genres": [
+      "Fantasia",
+      "Esporte",
+      "Documentário",
+      "Aventura",
+      "Histórico"
+    ],
+    "hobbies": [
+      "tecnologia",
+      "fotografia",
+      "esportes"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 90,
+    "name": "Carla",
+    "gender": "mulher",
+    "age": 49,
+    "favorite_genres": [
+      "Musical",
+      "Animação",
+      "Romance"
+    ],
+    "hobbies": [
+      "board games",
+      "esportes"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 91,
+    "name": "Patrícia",
+    "gender": "mulher",
+    "age": 29,
+    "favorite_genres": [
+      "Musical",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "programação",
+      "yoga",
+      "caminhadas",
+      "academia"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 92,
+    "name": "Natália",
+    "gender": "mulher",
+    "age": 43,
+    "favorite_genres": [
+      "Histórico",
+      "Ação"
+    ],
+    "hobbies": [
+      "dançar",
+      "board games",
+      "viajar",
+      "caminhadas",
+      "cozinhar"
+    ],
+    "description": "Prefere filmes envolventes com personagens bem desenvolvidos."
+  },
+  {
+    "id": 93,
+    "name": "Gustavo",
+    "gender": "homem",
+    "age": 48,
+    "favorite_genres": [
+      "Esporte",
+      "Crime",
+      "Animação"
+    ],
+    "hobbies": [
+      "fotografia",
+      "cozinhar"
+    ],
+    "description": "Gosta de produções modernas com boa fotografia e trilha sonora."
+  },
+  {
+    "id": 94,
+    "name": "Larissa",
+    "gender": "mulher",
+    "age": 58,
+    "favorite_genres": [
+      "Aventura",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "programação",
+      "cinema"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 95,
+    "name": "André",
+    "gender": "homem",
+    "age": 66,
+    "favorite_genres": [
+      "Documentário",
+      "Esporte",
+      "Ficção Científica",
+      "Comédia",
+      "Suspense"
+    ],
+    "hobbies": [
+      "assistir séries",
+      "fotografia",
+      "dançar",
+      "board games"
+    ],
+    "description": "Gosta de conteúdos inspiradores e motivacionais."
+  },
+  {
+    "id": 96,
+    "name": "Fernanda",
+    "gender": "mulher",
+    "age": 19,
+    "favorite_genres": [
+      "Ação",
+      "Esporte",
+      "Histórico",
+      "Aventura",
+      "Biografia"
+    ],
+    "hobbies": [
+      "ler livros",
+      "yoga"
+    ],
+    "description": "Aprecia narrativas profundas e reflexivas."
+  },
+  {
+    "id": 97,
+    "name": "André",
+    "gender": "homem",
+    "age": 47,
+    "favorite_genres": [
+      "Esporte",
+      "Ficção Científica",
+      "Histórico",
+      "Biografia",
+      "Fantasia"
+    ],
+    "hobbies": [
+      "podcasts",
+      "caminhadas"
+    ],
+    "description": "Costuma assistir filmes em família nos fins de semana."
+  },
+  {
+    "id": 98,
+    "name": "Henrique",
+    "gender": "homem",
+    "age": 57,
+    "favorite_genres": [
+      "Drama",
+      "Suspense",
+      "Animação",
+      "Ficção Científica",
+      "Musical"
+    ],
+    "hobbies": [
+      "academia",
+      "yoga",
+      "caminhadas"
+    ],
+    "description": "Busca entretenimento leve para relaxar após o trabalho."
+  },
+  {
+    "id": 99,
+    "name": "Renata",
+    "gender": "mulher",
+    "age": 52,
+    "favorite_genres": [
+      "Documentário",
+      "Comédia",
+      "Animação"
+    ],
+    "hobbies": [
+      "culinária internacional",
+      "esportes",
+      "jogar videogame"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  },
+  {
+    "id": 100,
+    "name": "Ana",
+    "gender": "mulher",
+    "age": 63,
+    "favorite_genres": [
+      "Terror",
+      "Animação"
+    ],
+    "hobbies": [
+      "dançar",
+      "podcasts",
+      "caminhadas",
+      "cozinhar",
+      "tecnologia"
+    ],
+    "description": "Prefere filmes emocionantes e cheios de ação."
+  }
+]
