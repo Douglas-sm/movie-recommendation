@@ -7,8 +7,8 @@ const DEFAULT_LANGUAGE = LANGUAGES.EN;
 
 const translations = {
     [LANGUAGES.EN]: {
-        'meta.title': 'Movie Recommender',
-        'header.title': 'Movie Recommender',
+        'meta.title': 'Recomendação de filme',
+        'header.title': 'Recomendação de filme',
         'header.subtitle': 'Choose a user and get 5 personalized recommendations.',
         'profile.title': 'User Profile',
         'form.user': 'User',

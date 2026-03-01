@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Recommender</title>
+    <title>Recomendação de filme</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -14,11 +15,11 @@
     <main class="main container-xxl">
         <header class="page-header">
             <div class="page-header-top">
-                <h1 class="mb-0" data-i18n="header.title">Movie Recommender</h1>
-                <div class="translation-switch">
+                <h1 class="mb-0" data-i18n="header.title">Recomerndação de filme</h1>
+                <div class="translation-switch d-none">
                     <span id="datasetSourceLabel" class="badge rounded-pill text-bg-light border">Data: EN</span>
                     <button id="translationToggleBtn" type="button" class="btn btn-outline-secondary btn-sm">
-                        Trocar para pt-br
+                        Trocar para pt-br/ro
                     </button>
                 </div>
             </div>
@@ -72,9 +73,12 @@
                         <h4 class="mb-0" data-i18n="training.title">Model Training</h4>
                     </div>
                     <div class="card-body">
-                        <button id="trainModelBtn" class="btn btn-primary">
-                            <i class="bi bi-cpu"></i> <span data-i18n="training.button.idle">Train Model</span>
-                        </button>
+                        <div class="d-flex flex-wrap gap-2">
+                            <button id="trainModelBtn" class="btn btn-primary">
+                                <i class="bi bi-cpu"></i> <span data-i18n="training.button.idle">Train Model</span>
+                            </button>
+                            <button id="trainingBoardBtn" class="btn btn-outline-secondary">Visualizar Treinamento</button>
+                        </div>
                         <div class="progress mt-3" role="progressbar" aria-label="Training progress">
                             <div id="trainingProgressBar" class="progress-bar" style="width: 0%;">0%</div>
                         </div>
@@ -82,15 +86,17 @@
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h3 class="mb-0" data-i18n="recommendations.title">Top 5 Recommendations</h3>
-                    <small class="text-muted" id="recommendationForUser"></small>
-                </div>
-                <div class="row" id="movieList">
-                    <div class="col-12">
-                        <div class="empty-state" data-i18n="recommendations.emptyBeforeTrain">Train the model and select a user to see recommendations.</div>
+                <section id="movieListSection">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h3 class="mb-0" data-i18n="recommendations.title">Top 5 Recommendations</h3>
+                        <small class="text-muted" id="recommendationForUser"></small>
                     </div>
-                </div>
+                    <div class="row" id="movieList">
+                        <div class="col-12">
+                            <div class="empty-state" data-i18n="recommendations.emptyBeforeTrain">Train the model and select a user to see recommendations.</div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
     </main>

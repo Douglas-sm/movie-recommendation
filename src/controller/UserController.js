@@ -21,15 +21,9 @@ export class UserController {
         const users = await this.#userService.getDefaultUsers();
         this.#userView.renderUserOptions(users);
         this.setupCallbacks();
+        this.#userView.clearUserDetails();
 
         this.#events.dispatchUsersUpdated({ users });
-
-        if (!users.length) return;
-
-        const defaultUser = users[0];
-        this.#userView.setSelectedUser(defaultUser.id);
-        this.#userView.renderUserDetails(defaultUser);
-        this.#events.dispatchUserSelected(defaultUser);
     }
 
     setupCallbacks() {
@@ -37,6 +31,11 @@ export class UserController {
     }
 
     async handleUserSelect(userId) {
+        if (!userId) {
+            this.#events.dispatchUserSelected(null);
+            return;
+        }
+
         const user = await this.#userService.getUserById(userId);
         if (!user) return;
 

@@ -9,6 +9,8 @@ import { ModelView } from './view/ModelTrainingView.js';
 import Events from './events/events.js';
 import { WorkerController } from './controller/WorkerController.js';
 import { I18n } from './i18n/i18n.js';
+import { TFVisorView } from './view/TFVisorView.js';
+import { TFVisorController } from './controller/TFVisorController.js';
 
 const userService = new UserService();
 const productService = new ProductService();
@@ -16,6 +18,7 @@ const productService = new ProductService();
 const userView = new UserView();
 const productView = new ProductView();
 const modelView = new ModelView();
+const tfVisorView = new TFVisorView();
 const translationToggleBtn = document.querySelector('#translationToggleBtn');
 const datasetSourceLabel = document.querySelector('#datasetSourceLabel');
 const DEFAULT_PRODUCT_DATA_PATH = './data/movie.json';
@@ -63,15 +66,24 @@ WorkerController.init({
     events: Events
 });
 
-const modelController = ModelController.init({
-    modelView,
-    userService,
+TFVisorController.init({
+    tfVisorView,
     events: Events,
+});
+
+modelView.registerOpenTrainingBoardCallback(() => {
+    tfVisorView.openDashboard();
 });
 
 const productController = ProductController.init({
     productView,
     productService,
+    events: Events,
+});
+
+const modelController = ModelController.init({
+    modelView,
+    userService,
     events: Events,
 });
 

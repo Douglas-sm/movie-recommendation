@@ -15,7 +15,18 @@ export class TFVisorView extends View {
         this.#accPoints = [];
     }
 
+    openDashboard() {
+        const tfvis = globalThis.tfvis;
+        if (!tfvis) return;
+
+        tfvis.visor().open();
+        this.#isVisOpen = true;
+    }
+
     handleTrainingLog(log) {
+        const tfvis = globalThis.tfvis;
+        if (!tfvis) return;
+
         if (!this.#isVisOpen) {
             tfvis.visor().open();
             this.#isVisOpen = true;

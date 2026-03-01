@@ -2,6 +2,8 @@ export class ProductController {
     #productView;
     #events;
     #productService;
+    #isTraining = false;
+    #hasSelectedUser = false;
 
     constructor({
         productView,
@@ -20,6 +22,7 @@ export class ProductController {
 
     async init() {
         this.setupEventListeners();
+        this.#syncMovieListVisibility();
         await this.renderBaseline();
     }
 
@@ -37,11 +40,30 @@ export class ProductController {
     }
 
     setupEventListeners() {
+        this.#events.onTrainModel(() => {
+            this.#isTraining = true;
+            this.#syncMovieListVisibility();
+        });
+
+        this.#events.onTrainingComplete(() => {
+            this.#isTraining = false;
+            this.#syncMovieListVisibility();
+        });
+
+        this.#events.onUserSelected((user) => {
+            this.#hasSelectedUser = Boolean(user?.id);
+            this.#syncMovieListVisibility();
+        });
+
         this.#events.onRecommendationsReady(({ user, recommendations }) => {
             this.#productView.render(recommendations.slice(0, 5), {
                 type: 'user',
                 userName: user?.name || '',
             });
         });
+    }
+
+    #syncMovieListVisibility() {
+        this.#productView.setMovieListVisibility(this.#hasSelectedUser && !this.#isTraining);
     }
 }

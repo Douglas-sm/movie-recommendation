@@ -3,9 +3,11 @@ import { I18n } from '../i18n/i18n.js';
 
 export class ModelView extends View {
     #trainModelBtn = document.querySelector('#trainModelBtn');
+    #trainingBoardBtn = document.querySelector('#trainingBoardBtn');
     #trainingProgressBar = document.querySelector('#trainingProgressBar');
     #trainingStatusText = document.querySelector('#trainingStatusText');
     #onTrainModel;
+    #onOpenTrainingBoard;
     #lastProgressData = {
         progress: 0,
         statusKey: 'training.status.waitingInitial',
@@ -23,12 +25,24 @@ export class ModelView extends View {
         this.#onTrainModel = callback;
     }
 
+    registerOpenTrainingBoardCallback(callback) {
+        this.#onOpenTrainingBoard = callback;
+    }
+
     attachEventListeners() {
         this.#trainModelBtn.addEventListener('click', () => {
             if (this.#onTrainModel) {
                 this.#onTrainModel();
             }
         });
+
+        if (this.#trainingBoardBtn) {
+            this.#trainingBoardBtn.addEventListener('click', () => {
+                if (this.#onOpenTrainingBoard) {
+                    this.#onOpenTrainingBoard();
+                }
+            });
+        }
     }
 
     updateTrainingProgress(progressData = {}) {

@@ -2,6 +2,7 @@ import { View } from './View.js';
 import { I18n } from '../i18n/i18n.js';
 
 export class ProductView extends View {
+    #movieListSection = document.querySelector('#movieListSection');
     #movieList = document.querySelector('#movieList');
     #recommendationForUser = document.querySelector('#recommendationForUser');
     #movieTemplate;
@@ -62,6 +63,17 @@ export class ProductView extends View {
 
         this.#movieList.innerHTML = html;
         this.#recommendationForUser.textContent = this.#resolveContextLabel(context);
+    }
+
+    setMovieListVisibility(isVisible = true) {
+        const section = this.#movieListSection || this.#movieList;
+        if (!section) return;
+
+        section.classList.toggle('d-none', !isVisible);
+
+        if (!isVisible) {
+            this.#recommendationForUser.textContent = '';
+        }
     }
 
     #formatNumber(value) {

@@ -73,7 +73,6 @@ export class UserView extends View {
 
             if (!userId) {
                 this.clearUserDetails();
-                return;
             }
 
             if (this.#onUserSelect) {
